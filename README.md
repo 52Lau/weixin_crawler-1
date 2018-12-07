@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 > 
 > #### If you want weixin_crawler work automatically those steps are necessary or you shoud operate the phone to get the request data that will be detected by Anyproxy manual
 > 
-> 1. Install abd and add it to your path(windows for example)
+> 1. Install adb and add it to your path(windows for example)
 > 
 > 2. install android emulator(NOX suggested) or plugin your phone and make sure you can operate them with abd from command line tools
 > 
