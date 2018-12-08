@@ -7,6 +7,7 @@ from instance import db_instance
 logger = logging.getLogger(__name__)
 from instance import redis_instance
 from copy import copy
+import json
 
 
 # redis队列
