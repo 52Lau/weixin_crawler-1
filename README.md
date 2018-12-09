@@ -82,7 +82,11 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 > 
 > #### Run the main.py
 > 
-> Just run python weixin_crawler\project\main.py. Now open the browser and everything you want would be in localhost:5000.
+> $ cd weixin_crawler/project/
+> 
+> $ python(3) ./main.py
+> 
+> Now open the browser and everything you want would be in localhost:5000.
 > 
 > In this long step list you may get stucked, join our community for help, tell us what you have done and what kind of error you have found.
 > 
