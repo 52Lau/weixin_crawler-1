@@ -80,9 +80,11 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 > 
 > 3. If mutiple phone are connected to your computer you have to find out their adb ports which will be used to add crawler
 > 
+> 4. adb does not support Chinese input, this is a bad news for weixin official account searching. In order to input Chinese, adb keyboard has to be installed in your android phone and set it as the default input method, more is [here](https://github.com/senzhk/ADBKeyBoard)
+> 
 > #### Run the main.py
 > 
-> $ cd weixin_crawler/project/
+> $ cd weixin_crawler/project/
 > 
 > $ python(3) ./main.py
 > 
