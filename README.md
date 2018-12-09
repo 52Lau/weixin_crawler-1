@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 > 
 > #### Install the needed python packages
 > 
-> 1. NOTE: you may can not simply type pip install -r requirements.txt to install every package, twist is one of them which is needed by scrapy
+> 1. NOTE: you may can not simply type pip install -r requirements.txt to install every package, twisted is one of them which is needed by scrapy. When you get some problems about installing python package(twisted for instance), [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) always have a solution——downlod the right version package to your drive and run $ pip install package_name
 > 
 > 2. I am not sure if your python enviroment will throw other package not found error, just install any package that is needed
 > 
