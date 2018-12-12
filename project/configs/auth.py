@@ -12,7 +12,7 @@ SECRET_KEY = ''
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Mongodb 数据库运行参数
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-MONGODB_NAME = 'WeixinData_test'
+MONGODB_NAME = 'WeixinData4'
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 
