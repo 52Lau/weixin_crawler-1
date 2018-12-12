@@ -13,3 +13,4 @@ pandas
 pyecharts
 pypinyin
 baidu-aip
+html2text
