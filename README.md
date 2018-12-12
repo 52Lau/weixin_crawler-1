@@ -87,8 +87,8 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 > Why could weixin_crawler work automatically? Here is the reason:
 > 
 > - If you want to crawl a wechat official account, you have to search the account in you phone and click its "全部消息" then you will get a message list , if you roll down more lists will be loaded.  Anyone of the messages in the list could be taped if you want to crawl this account's reading data   
-> - If a nickname of a wechat official account is given, then wexin_crawler operate the wechat app installed in a phone, at the same time anyproxy is 'listening background'...Anyway weixin_crawler get all the request data requested by wechat app, then it is the show time for scrapy
-> - As you supposed, in order to let weixin_crawler operate wechat app we have to tell adb where to click swap and input,  most of them are defined in weixin_crawler/project/phone_operate/config.py. BTW phone_operate is responsible for wechat operate just like human beings, its eyes are baidu OCR API and predefined location tap area, its fingers are adb
+> > - If a nickname of a wechat official account is given, then wexin_crawler operate the wechat app installed in a phone, at the same time anyproxy is 'listening background'...Anyway weixin_crawler get all the request data requested by wechat app, then it is the show time for scrapy
+> > - As you supposed, in order to let weixin_crawler operate wechat app we have to tell adb where to click swap and input,  most of them are defined in weixin_crawler/project/phone_operate/config.py. BTW phone_operate is responsible for wechat operate just like human beings, its eyes are baidu OCR API and predefined location tap area, its fingers are adb
 > 
 > #### Run the main.py
 > 
@@ -158,7 +158,7 @@ weixin_crawler从2018年6月就开始利用业余时间开发（居然用了半�
 
 - 加入社群一起贡献代码，我们一起创造出更酷的爬虫 
 
-- 加入知识星球听作者将weixin_crawler的每一个函数和每一个问题解决的思维过程娓娓道来，你会因此认识更多意志坚定的开发者
+- 加入知识星球听作者将weixin_crawler的每一个函数和每一个问题解决的思维过程娓娓道来，你会因此认识更多意志坚定的开发者。星球福利详见[这里](readme_img/join_base.md)
 
 | 作者微信(备注请以wc开头)          | 加入知识星球                    | 打赏作者                    |
 | ----------------------- | ------------------------- | ----------------------- |
