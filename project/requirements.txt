@@ -11,6 +11,7 @@ Pillow
 numpy
 pandas
 pyecharts
+pyecharts_snapshot
 pypinyin
 baidu-aip
 html2text
