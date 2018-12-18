@@ -70,10 +70,6 @@ class ArticleReadDataMiddleware():
         body_dict.update(content_url_param_dict)
         body_dict['comment_id'] = request.get_ext_data['comment_id']
         body_dict['is_need_reward'] = 1
-        if body_dict['comment_id'] == '0':
-            body_dict['scene'] = 38
-        else:
-            body_dict['scene'] = 27
         url = req_data['url']+req_data['url_param_str']
         request._set_url(url)
         request.set_method(req_data['method'])
