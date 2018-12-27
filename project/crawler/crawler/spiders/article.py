@@ -79,10 +79,10 @@ class ArticleSpider(scrapy.Spider):
         time_gap = time()-self.crawler_begin_time
         if self.crawler_parse_counter != 0:
             print("%s爬虫关闭 用时%d 共计爬取%d 平均%f"%(self.name, time_gap, self.crawler_parse_counter, time_gap/self.crawler_parse_counter))
-        # from instance.global_instance import gs
-        # print("正在为 %s 创建索引..."%(self.current_nickname))
-        # index_result = gs.index_db_docs(self.current_nickname)
-        # print("索引完成",index_result)
+        from instance.global_instance import gs
+        print("正在为 %s 创建索引..."%(self.current_nickname))
+        index_result = gs.index_db_docs(self.current_nickname)
+        print("索引完成",index_result)
         from db.meta_data import insert_article_metadata
         insert_article_metadata(self.current_nickname,{'date':datetime.datetime.now(),'articles_num':self.crawler_parse_counter})
 
