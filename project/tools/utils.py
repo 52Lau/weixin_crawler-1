@@ -87,3 +87,20 @@ def sub_list(whole_list, part_list):
     :return:从whole list中找出除了part_list之外的元素 组成一个子list返回
     """
     return [x for x in whole_list if x not in part_list]
+
+
+def update_dict_by_dict(whole_dict, part_dict, keys=None):
+    """
+    :param whole_dict:
+    :param part_dict:
+    :param keys:
+    :return:根据指定的keys 用part_dict的value更新whole_dict的value
+    """
+    if keys == None:
+        whole_dict.update(part_dict)
+        return whole_dict
+    else:
+        for key in keys:
+            if key in part_dict:
+                whole_dict[key] = part_dict[key]
+        return whole_dict
