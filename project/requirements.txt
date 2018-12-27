@@ -16,3 +16,4 @@ pypinyin
 baidu-aip
 html2text
 tabulate
+requests
