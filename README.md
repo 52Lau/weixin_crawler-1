@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 ## 运行方法
 
 weixin_crawler已经在Win/Mac/Linux系统下运行成功, 建议优先使用win系统尝试
-weixin_crawler could on win/mac/linux, although it is suggested to try on win os firstly
+weixin_crawler could work on win/mac/linux, although it is suggested to try on win os firstly
 
 > #### Insatall  mongodb / redis / elasticsearch and run them in the background
 > 
