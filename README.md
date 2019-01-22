@@ -6,7 +6,10 @@ weixin_crawler是一款使用Scrapy、Flask、Echarts、Elasticsearch等实现�
 
 https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 
-## 主要特点
+## 免部署马上体验公众号数据采集
+
+通过免安装可执行程序WCplus.exe  https://shimo.im/docs/E1IjqOy2cYkPRlZd 可马上体验weixin_crawler的数据采集功、导出Excel和PDF功能
+
 
 1. 使用Python3编写
 
