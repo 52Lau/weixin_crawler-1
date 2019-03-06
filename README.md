@@ -4,8 +4,8 @@ weixin_crawler是一款使用Scrapy、Flask、Echarts、Elasticsearch等实现�
 
 weixin_crawler尚处于维护之中, 方案有效, 请放心尝试. weixin_crawler is under maintaining, the code works greatly free to explore please
 
-如果你想先看看这个项目是否有趣，这段不足3分钟的介绍视频一定是你需要的：
-
+如果你想先看看这个项目是否有趣，这段不足3分钟的介绍视频一定是你需要的
+If you want to check if weixin_crawler is interesting or powerful enougth, this video will help to save time
 https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 
 ## 免部署马上体验公众号数据采集
@@ -15,26 +15,27 @@ https://www.youtube.com/watch?v=CbfLRCV7oeU&t=8s
 ## 主要特点
 
 1. 使用Python3编写
-
+Python3 is used
 2. 爬虫框架为Scrapy并且实际用到了Scrapy的诸多特性，是深入学习Scrapy的不错开源项目
-
+Made full use of scrapy, if you are struggling with scrapy this repo helps to spark
 3. 利用Flask、Flask-socketio、Vue实现了高可用性的UI界面。功能强大实用，是新媒体运营等岗位不错的数据助手
-
+Flask、Flask-socketio、Vue are used to build a full stack project crawler 
 4. 得益于Scrapy、MongoDB、Elasticsearch的使用，数据爬取、存储、索引均简单高效
-
+Thanks to scrapy mongodb elasticsearch weixin_crawler is not only a crawler but also a search engine
 5. 支持微信公众号的全部历史发文爬取
-
+Able to crawl all the history articles of any weixin official account
 6. 支持微信公众号文章的阅读量、点赞量、赞赏量、评论量等数据的爬取
-
+Able to crawl the reading data
 7. 自带面向单个公众号的数据分析报告
-
+Released with report module based on sigle official account
 8. 利用Elasticsearch实现了全文检索，支持多种搜索和模式和排序模式，针对搜索结果提供了趋势分析图表
-
+It is also a search engine
 9. 支持对公众号进行分组，可利用分组数据限定搜索范围
-
+Able to group official account which can be used to define searching range
 10. 原创手机自动化操作方法，可实现爬虫无人监管
-
-11. 反爬措施简单粗暴
+Whith the help of adb, weixin_crawler is able to opereate Android phone automatically, which means it can work without any human monitoring
+11. 支持多微信APP同时采集, 理论上采集速度可线性增加
+Mutiple weixin app is supported to imporove crawling speed linearly
 
 ## 使用到的主要工具
 
