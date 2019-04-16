@@ -1,7 +1,8 @@
 ## weixin_crawler 已经私有化,源码一直处于维护中
 
 获取最新源码请加入知识星球, 入口二维码在最底部
-
+感谢[这些](readme_img/thanks.md)小伙伴对weixin_crawler的实际支持
+开源社群因为你们必将更加精彩
 
 ## What is weixin_crawler?
 
