@@ -1,5 +1,3 @@
-## weixin_crawler已经私有化
-
 ## What is weixin_crawler?
 
 weixin_crawler是一款使用Scrapy、Flask、Echarts、Elasticsearch等实现的微信公众号文章爬虫，自带分析报告([报告样例](readme_img/report_example.png))和全文检索功能，几百万的文档都能瞬间搜索。weixin_crawler设计的初衷是尽可能多、尽可能快地爬取微信公众的历史发文
